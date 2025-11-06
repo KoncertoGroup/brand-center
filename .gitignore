@@ -1,0 +1,49 @@
+# Node
+node_modules/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite / VitePress
+.vitepress/dist/
+.vitepress/cache/
+.vitepress/temp/
+node_modules/.vite/
+dist/
+
+# Testing
+coverage/
+.vitest/
+
+# TypeScript
+*.tsbuildinfo
+
+# Lint caches
+.eslintcache
+.stylelintcache
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# General caches
+.cache/
+
+# Optional: Yarn Berry (uncomment if using)
+#.yarn/*
+#!.yarn/patches
+#!.yarn/releases
+#!.yarn/plugins
+#!.yarn/sdks
+#!.yarn/versions
